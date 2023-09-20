@@ -4,14 +4,14 @@ with open("README.md", "r") as fh:
     long_description = fh.read()
 
 setuptools.setup(
-    name="parse-ingredients", # Replace with your own username
+    name="parse-ingredients-fork", # Replace with your own username
     version="0.0.4",
-    author="Michiel K",
+    author="Michiel K, Stephan Kostov",
     author_email="",
     description="Parse strings of ingredients to their name, unit, quantity and optional comments.",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/MichielMag/parse-ingredients",
+    url="https://github.com/stephankostov/parse-ingredients",
     packages=setuptools.find_packages(),
     classifiers=[
         "Programming Language :: Python :: 3",
